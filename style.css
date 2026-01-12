@@ -13,13 +13,14 @@ body {
   background-image: url(assets/background_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #page {
   box-sizing: border-box;
   width: 800px;
   padding: 24px;
-  background-color: #F0E8C2;
+  background-color: #E0DED1;
   border-radius: 24px;
   margin: 48px auto;
 }
@@ -39,30 +40,46 @@ main {
   margin-bottom: 12px;
 }
 
+#ingredients h2 {
+  margin-top: 48px;
+}
+
+#special-equipment h2 {
+  margin-top: 48px;
+}
+
+#method h2 {
+  margin-top: 48px;
+}
+
 h1 {
   line-height: 140%;
   font-size: 40px;
-  margin-bottom: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 24px;
   padding-left: 12px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h4 {
   font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 h1, h2, h3, h4 {
   color: #291B1A;
   line-height: 150%;
-  margin-top: 15px;
-  margin-bottom: 10px;
 }
 
 p {
@@ -81,4 +98,9 @@ ul {
 
 ol {
   padding-left: 40px;
+}
+
+ol li {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
